@@ -6,6 +6,6 @@ Dados básicos:
 3-Proposta de projeto escolhida: Lugares e Experiências
 4-Breve descrição sobre o projeto: O Projeto Homepage Michele foi idealizado e pensado para que todas as pessoas possam por meio da homepage explorar os melhores lugares e atividades da cidade com uma página interativa, moderna e responsiva. Descubra atrações, eventos e envie suas mensagens diretamente pelo formulário de contato.
 5-Imagem do esboço (wireframe) criado para o projeto
-![wireframe1homepage](wireframe1homepage.png)
+![wireframe1homepage](public/wireframe1homepage.png)
 6-Print da home-page criada para o projeto
-![printhomepage](printhomepage.png)
+![printhomepage](public/printhomepage.png)
