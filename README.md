@@ -8,4 +8,4 @@ Dados básicos:
 5-Imagem do esboço (wireframe) criado para o projeto
 ![wireframe1homepage](wireframe1homepage.png)
 6-Print da home-page criada para o projeto
-![printpaginahomepage](printpaginahomepage.png)
+![printhomepage](printhomepage.png)
