@@ -9,11 +9,11 @@
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header>
         <h1>Projeto Homepage Michele</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
                 <li><a href="#lugares">Lugares</a></li>
                 <li><a href="#atividades">Atividades</a></li>
                 <li><a href="#contato">Contato</a></li>
@@ -23,12 +23,12 @@
 
     <!-- Seção de Introdução -->
     <section class="intro">
-        <h2 class="titulo-principal">Descubra os melhores lugares e experiências</h2>
-        <p class="subtitulo">Explore cidades, museus, parques e trilhas incríveis.</p>
+        <h2>Descubra os melhores lugares e experiências</h2>
+        <p>Explore cidades, museus, parques e trilhas incríveis.</p>
         <a href="#lugares" class="btn">Comece a explorar</a>
     </section>
 
-    <!-- Lugares -->
+    <!-- Lugares e Atrações -->
     <section id="lugares">
         <h2>Lugares e Atrações</h2>
         <div class="cards">
@@ -36,24 +36,24 @@
                 <img src="https://picsum.photos/300/200?random=1" alt="Museu da Cidade">
                 <h3>Museu da Cidade</h3>
                 <p>Conheça a história e a cultura local.</p>
-                <a href="museu.html" class="btn-card">Saiba Mais</a>
+                <a href="#" class="btn">Saiba mais</a>
             </div>
             <div class="card">
                 <img src="https://picsum.photos/300/200?random=2" alt="Parque da Cidade">
                 <h3>Parque da Cidade</h3>
                 <p>Um lugar incrível para relaxar e conectar com a natureza.</p>
-                <a href="parque.html" class="btn-card">Saiba Mais</a>
+                <a href="#" class="btn">Saiba mais</a>
             </div>
             <div class="card">
                 <img src="https://picsum.photos/300/200?random=3" alt="Exposição Artística">
                 <h3>Exposição Artística</h3>
                 <p>Explore inspirações temporárias pela cidade.</p>
-                <a href="exposicao.html" class="btn-card">Saiba Mais</a>
+                <a href="#" class="btn">Saiba mais</a>
             </div>
         </div>
     </section>
 
-    <!-- Atividades -->
+    <!-- Atividades e Eventos -->
     <section id="atividades">
         <h2>Atividades e Eventos</h2>
         <div class="cards">
@@ -61,13 +61,13 @@
                 <img src="https://picsum.photos/300/200?random=4" alt="Trilha Guiada">
                 <h3>Trilha Guiada</h3>
                 <p>Descubra trilhas incríveis com guia especializado.</p>
-                <a href="trilha.html" class="btn-card">Saiba Mais</a>
+                <a href="#" class="btn">Saiba mais</a>
             </div>
             <div class="card">
                 <img src="https://picsum.photos/300/200?random=5" alt="Workshop de Arte">
                 <h3>Workshop de Arte</h3>
                 <p>Participe de oficinas criativas para todas as idades.</p>
-                <a href="workshop.html" class="btn-card">Saiba Mais</a>
+                <a href="#" class="btn">Saiba mais</a>
             </div>
         </div>
     </section>
@@ -75,22 +75,15 @@
     <!-- Contato -->
     <section id="contato">
         <h2>Entre em Contato</h2>
-        <p>Preencha o formulário abaixo para entrar em contato:</p>
-
-        <form action="#" method="post" class="form-contato">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu e-mail" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
 
+    <!-- Rodapé -->
     <footer>
         <p>© 2025 Projeto Homepage Michele - Todos os direitos reservados.</p>
     </footer>
